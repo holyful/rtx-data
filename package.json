@@ -1,6 +1,6 @@
 {
   "name": "rtx-data",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "grab RTX data from MAC RTX",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/holyful/rtx-data/issues"
   },
-  "homepage": "https://github.com/holyful/rtx-data"
+  "homepage": "https://github.com/holyful/rtx-data",
+  "dependencies": {
+    "cli": "^0.8.0",
+    "csv": "^0.4.5",
+    "sqlite3": "^3.0.8"
+  },
+  "bin": {
+    "rtx-data": "index.js"
+  }
 }
