@@ -13,7 +13,7 @@ cli.parse({
     user: ['u', '登录RTX使用的用户名','string'],
     output: ['o','输出的文件(csv格式)','string']
 });
--
+
 cli.main(function(args, options) {
 	
 	var userName = options.user;

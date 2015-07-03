@@ -1,6 +1,6 @@
 {
   "name": "rtx-data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "grab RTX data from MAC RTX",
   "main": "index.js",
   "scripts": {
